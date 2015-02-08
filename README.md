@@ -41,6 +41,6 @@ echo $MyString | awk -v ORS="" '{ gsub(/./,"&\n") ; print }' | \
 while read char
 do
   curl -X POST 192.168.1.14:8060/keypress/Lit_$char
-  done
+done
 ```
 
