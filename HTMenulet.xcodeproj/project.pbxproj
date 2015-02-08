@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80C28601A393AA4006E58AB /* RokuMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C285F1A393AA4006E58AB /* RokuMenu.m */; };
+		B8E882DA1A17D6AA0037BF13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E882D91A17D6AA0037BF13 /* AppDelegate.m */; };
+		B8E882DC1A17D6AA0037BF13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E882DB1A17D6AA0037BF13 /* main.m */; };
+		B8E882DE1A17D6AA0037BF13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E882DD1A17D6AA0037BF13 /* Images.xcassets */; };
+		B8E882E11A17D6AA0037BF13 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E882DF1A17D6AA0037BF13 /* MainMenu.xib */; };
+		B8E882ED1A17D6AA0037BF13 /* HTMenuletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E882EC1A17D6AA0037BF13 /* HTMenuletTests.m */; };
+		B8E882FA1A17D86C0037BF13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E882F91A17D86C0037BF13 /* Foundation.framework */; };
+		B8E882FC1A17D8C30037BF13 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E882FB1A17D8C30037BF13 /* AppKit.framework */; };
+		B8E883041A17EBC90037BF13 /* OppoMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E883031A17EBC90037BF13 /* OppoMenu.m */; };
+		B8E883071A17ECE10037BF13 /* RequestUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E883061A17ECE10037BF13 /* RequestUtil.m */; };
+		B8E883091A1835EA0037BF13 /* Oppo_Commands.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8E883081A1835EA0037BF13 /* Oppo_Commands.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E882E71A17D6AA0037BF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E882CB1A17D6AA0037BF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E882D21A17D6AA0037BF13;
+			remoteInfo = HTMenulet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B80C285E1A393AA4006E58AB /* RokuMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RokuMenu.h; sourceTree = "<group>"; };
+		B80C285F1A393AA4006E58AB /* RokuMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RokuMenu.m; sourceTree = "<group>"; };
+		B8AEEF671A2BBF160083F01B /* AppMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMenu.h; sourceTree = "<group>"; };
+		B8E882D31A17D6AA0037BF13 /* HTMenulet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMenulet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E882D71A17D6AA0037BF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E882D81A17D6AA0037BF13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8E882D91A17D6AA0037BF13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8E882DB1A17D6AA0037BF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E882DD1A17D6AA0037BF13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8E882E01A17D6AA0037BF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B8E882E61A17D6AA0037BF13 /* HTMenuletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMenuletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E882EB1A17D6AA0037BF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E882EC1A17D6AA0037BF13 /* HTMenuletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMenuletTests.m; sourceTree = "<group>"; };
+		B8E882F91A17D86C0037BF13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8E882FB1A17D8C30037BF13 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B8E883021A17EBC90037BF13 /* OppoMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppoMenu.h; sourceTree = "<group>"; };
+		B8E883031A17EBC90037BF13 /* OppoMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppoMenu.m; sourceTree = "<group>"; };
+		B8E883051A17ECE10037BF13 /* RequestUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUtil.h; sourceTree = "<group>"; };
+		B8E883061A17ECE10037BF13 /* RequestUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestUtil.m; sourceTree = "<group>"; };
+		B8E883081A1835EA0037BF13 /* Oppo_Commands.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Oppo_Commands.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E882D01A17D6AA0037BF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E882FC1A17D8C30037BF13 /* AppKit.framework in Frameworks */,
+				B8E882FA1A17D86C0037BF13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E882E31A17D6AA0037BF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E882CA1A17D6AA0037BF13 = {
+			isa = PBXGroup;
+			children = (
+				B8E882FB1A17D8C30037BF13 /* AppKit.framework */,
+				B8E882F91A17D86C0037BF13 /* Foundation.framework */,
+				B8E882D51A17D6AA0037BF13 /* HTMenulet */,
+				B8E882E91A17D6AA0037BF13 /* HTMenuletTests */,
+				B8E882D41A17D6AA0037BF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E882D41A17D6AA0037BF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E882D31A17D6AA0037BF13 /* HTMenulet.app */,
+				B8E882E61A17D6AA0037BF13 /* HTMenuletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E882D51A17D6AA0037BF13 /* HTMenulet */ = {
+			isa = PBXGroup;
+			children = (
+				B8E882D81A17D6AA0037BF13 /* AppDelegate.h */,
+				B8E882D91A17D6AA0037BF13 /* AppDelegate.m */,
+				B8E883021A17EBC90037BF13 /* OppoMenu.h */,
+				B8E883031A17EBC90037BF13 /* OppoMenu.m */,
+				B80C285E1A393AA4006E58AB /* RokuMenu.h */,
+				B80C285F1A393AA4006E58AB /* RokuMenu.m */,
+				B8E883051A17ECE10037BF13 /* RequestUtil.h */,
+				B8E883061A17ECE10037BF13 /* RequestUtil.m */,
+				B8AEEF671A2BBF160083F01B /* AppMenu.h */,
+				B8E882DD1A17D6AA0037BF13 /* Images.xcassets */,
+				B8E882DF1A17D6AA0037BF13 /* MainMenu.xib */,
+				B8E882D61A17D6AA0037BF13 /* Supporting Files */,
+			);
+			path = HTMenulet;
+			sourceTree = "<group>";
+		};
+		B8E882D61A17D6AA0037BF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8E882D71A17D6AA0037BF13 /* Info.plist */,
+				B8E882DB1A17D6AA0037BF13 /* main.m */,
+				B8E883081A1835EA0037BF13 /* Oppo_Commands.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8E882E91A17D6AA0037BF13 /* HTMenuletTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E882EC1A17D6AA0037BF13 /* HTMenuletTests.m */,
+				B8E882EA1A17D6AA0037BF13 /* Supporting Files */,
+			);
+			path = HTMenuletTests;
+			sourceTree = "<group>";
+		};
+		B8E882EA1A17D6AA0037BF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8E882EB1A17D6AA0037BF13 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E882D21A17D6AA0037BF13 /* HTMenulet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E882F01A17D6AA0037BF13 /* Build configuration list for PBXNativeTarget "HTMenulet" */;
+			buildPhases = (
+				B8E882CF1A17D6AA0037BF13 /* Sources */,
+				B8E882D01A17D6AA0037BF13 /* Frameworks */,
+				B8E882D11A17D6AA0037BF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTMenulet;
+			productName = HTMenulet;
+			productReference = B8E882D31A17D6AA0037BF13 /* HTMenulet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E882E51A17D6AA0037BF13 /* HTMenuletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E882F31A17D6AA0037BF13 /* Build configuration list for PBXNativeTarget "HTMenuletTests" */;
+			buildPhases = (
+				B8E882E21A17D6AA0037BF13 /* Sources */,
+				B8E882E31A17D6AA0037BF13 /* Frameworks */,
+				B8E882E41A17D6AA0037BF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E882E81A17D6AA0037BF13 /* PBXTargetDependency */,
+			);
+			name = HTMenuletTests;
+			productName = HTMenuletTests;
+			productReference = B8E882E61A17D6AA0037BF13 /* HTMenuletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E882CB1A17D6AA0037BF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Zaid Kokaja";
+				TargetAttributes = {
+					B8E882D21A17D6AA0037BF13 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B8E882E51A17D6AA0037BF13 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B8E882D21A17D6AA0037BF13;
+					};
+				};
+			};
+			buildConfigurationList = B8E882CE1A17D6AA0037BF13 /* Build configuration list for PBXProject "HTMenulet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E882CA1A17D6AA0037BF13;
+			productRefGroup = B8E882D41A17D6AA0037BF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E882D21A17D6AA0037BF13 /* HTMenulet */,
+				B8E882E51A17D6AA0037BF13 /* HTMenuletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E882D11A17D6AA0037BF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E882DE1A17D6AA0037BF13 /* Images.xcassets in Resources */,
+				B8E882E11A17D6AA0037BF13 /* MainMenu.xib in Resources */,
+				B8E883091A1835EA0037BF13 /* Oppo_Commands.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E882E41A17D6AA0037BF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E882CF1A17D6AA0037BF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E883041A17EBC90037BF13 /* OppoMenu.m in Sources */,
+				B8E882DC1A17D6AA0037BF13 /* main.m in Sources */,
+				B8E882DA1A17D6AA0037BF13 /* AppDelegate.m in Sources */,
+				B8E883071A17ECE10037BF13 /* RequestUtil.m in Sources */,
+				B80C28601A393AA4006E58AB /* RokuMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E882E21A17D6AA0037BF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E882ED1A17D6AA0037BF13 /* HTMenuletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E882E81A17D6AA0037BF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E882D21A17D6AA0037BF13 /* HTMenulet */;
+			targetProxy = B8E882E71A17D6AA0037BF13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E882DF1A17D6AA0037BF13 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E882E01A17D6AA0037BF13 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E882EE1A17D6AA0037BF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B8E882EF1A17D6AA0037BF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B8E882F11A17D6AA0037BF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HTMenulet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B8E882F21A17D6AA0037BF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HTMenulet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B8E882F41A17D6AA0037BF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HTMenuletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMenulet.app/Contents/MacOS/HTMenulet";
+			};
+			name = Debug;
+		};
+		B8E882F51A17D6AA0037BF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HTMenuletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTMenulet.app/Contents/MacOS/HTMenulet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E882CE1A17D6AA0037BF13 /* Build configuration list for PBXProject "HTMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E882EE1A17D6AA0037BF13 /* Debug */,
+				B8E882EF1A17D6AA0037BF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E882F01A17D6AA0037BF13 /* Build configuration list for PBXNativeTarget "HTMenulet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E882F11A17D6AA0037BF13 /* Debug */,
+				B8E882F21A17D6AA0037BF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E882F31A17D6AA0037BF13 /* Build configuration list for PBXNativeTarget "HTMenuletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E882F41A17D6AA0037BF13 /* Debug */,
+				B8E882F51A17D6AA0037BF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E882CB1A17D6AA0037BF13 /* Project object */;
+}

@@ -1,0 +1,73 @@
+NFX     Netflix
+VDU     Vudu
+
+POW     Toggle Power
+PON     Power On
+POF     Power Off
+EJT     Tray
+BMK     Bookmark
+SFD     SF
+EQR     EQ
+CAP     Capture
+BRW     INFO
+VUP     Volume
+VDN     Volume
+MUT     Mute
+NU1     1
+NU2     2
+NU3     3
+NU4     4
+NU5     5
+NU6     6
+NU7     7
+NU8     8
+NU9     9
+NU0     0
+N10     10+
+CLR     Clear
+TTL     Title
+MNU     Menu
+NUP     Up
+NLT     Left
+NRT     Right
+NDN     Down
+SEL     Select
+SET     Setup
+RET     Return
+SUB     Subtitle
+AUD     Audio
+ANG     Angle
+ZOM     Zoom
+PLP     Play/Pause
+STP     Stop
+GOT     Goto
+REV     REV
+FWD     FWD
+ATB     A-B
+PRE     Skip
+NXT     Skip
+RPT     Repeat
+OSD     OSD
+KBD     Keyboard
+SLW     Slow
+HDM     HDMI
+SYS     P/N
+PLA     Play
+PAU     Pause
+QPW     Query Power
+QVR     Query Firmware
+QVL     Query Volume
+QSF     Query Sound Field
+QEQ     Query EQ
+QHD     Query Output Resolution
+QTK     Query Title Playing
+QCH     Query Chapter Playing
+QTE     Query Title Elapsed Time
+QTR     Query Title Remaining Time
+QCE     Query Chapter Elapsed Time
+QCR     Query CHapter Remaining Time
+QEL     Query Total Elapsed Time
+QRE     Query Total Remaining Time
+QDT     Query Disk Type
+QAT     Query Audio Type
+QST     Query Subtitle Type
